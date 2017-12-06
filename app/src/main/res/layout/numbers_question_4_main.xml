@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.abalik.start.MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="WHILE NOT END:\n\tIF THERE IS OBJECT:\n\t\tGO OTHER SIDE\n\tELSE:\n\t\tGO FORWARD"
+        android:textAlignment="textStart"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:src="@drawable/adsiz"
+        app:srcCompat="@drawable/adsiz" />
+
+    <Button
+        android:id="@+id/kaydetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:text="NEXT" />
+
+
+</LinearLayout>
